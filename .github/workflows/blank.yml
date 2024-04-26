@@ -18,8 +18,8 @@ jobs:
 
       - name: Run bash
         run: |
-          chmod +x /home/runner/work/DevOpsCrash/DevOpsCrash/bash.sh
-          /home/runner/work/DevOpsCrash/DevOpsCrash/bash.sh https://softserveinc.com
+          chmod +x ./bashn.sh
+          ./bashn.sh https://softserveinc.com
 
       - name: Display name
         run: echo Mospanko Maksym
